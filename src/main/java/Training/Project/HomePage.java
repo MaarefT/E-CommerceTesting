@@ -14,7 +14,7 @@ public class HomePage {
 	public ReadExcel read;
 
 	@FindBy(xpath = Elements.Login)
-	private WebElement Login;
+	public WebElement Login;
 
 	@FindBy(xpath = Elements.Image_Logo)
 	private WebElement Image_Logo;
